@@ -1,0 +1,61 @@
+[{
+		"name":"Farmacia do Povo",
+
+		"endereco":{
+			"logradouro":"Rua: xxxx yyyy zz ",
+			"numero":10,
+			"bairro":"Centro",
+			"cidade":"Manhuacu",
+			"estado":"MG",
+			"cep":33664545
+		},
+
+		"horario":{
+			"inicio":"YYYY-MM-DDTHH:MM",
+			"final":"YYYY-MM-DDTHH:MM"
+		},
+
+		"contatos":{
+			"tel":3333315447,
+			"whatsapp":33984546584
+		}
+},
+{
+    "name": "Drogaria Lopes",
+    "endereco": {
+        "logradouro": "Rua: xxxx yyyy zz ",
+        "numero": 10,
+        "bairro": "Centro",
+        "cidade": "Manhuacu",
+        "estado": "MG",
+        "cep": 33664545
+    },
+    "horario": {
+        "inicio": "YYYY-MM-DDTHH:MM",
+        "final": "YYYY-MM-DDTHH:MM"
+    },
+    "contatos": {
+        "tel": 3333315447,
+        "whatsapp": 33984546584
+    }
+},
+{
+    "name": "Farmácia Indiana",
+    "endereco": {
+        "logradouro": "Rua: xxxx yyyy zz ",
+        "numero": 10,
+        "bairro": "Centro",
+        "cidade": "Manhuacu",
+        "estado": "MG",
+        "cep": 33664545
+    },
+    "horario": {
+        "inicio": "YYYY-MM-DDTHH:MM",
+        "final": "YYYY-MM-DDTHH:MM"
+    },
+    "contatos": {
+        "tel": 3333315447,
+        "whatsapp": 33984546584
+    }
+}
+]

@@ -1,0 +1,59 @@
+@import '../../styles/mixins.scss';
+
+
+
+.main {
+    background-color: #293039;
+    height: 100%;
+
+    .main_header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        
+        img {
+        width: 200px;
+        height: 100px;
+        }
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .open_today, .next_week {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #f9f9f9;
+        margin-top: 50px;
+        margin-left: 20px;
+
+    }
+}
+
+@include web {
+    .main_header {
+      justify-content: center !important; // no app estava right, alterei para center pois quando passava de 1200 ele ia para a direita.
+      margin-right: 50px;
+    }
+
+    .open_today, .next_week {
+      margin-top: 50px !important;
+    }
+
+    .cards {
+      flex-direction: row !important;
+      margin-right: 50px;
+    }
+}
+
+@include tablet {
+  .cards {
+    display: flex;
+    flex-direction: row !important;
+   
+  }
+}
